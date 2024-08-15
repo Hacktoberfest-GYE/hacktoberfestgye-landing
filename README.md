@@ -5,7 +5,21 @@
 ![last commit](https://img.shields.io/github/last-commit//Hacktoberfest-GYE/hacktoberfestgye-landing?style=plastic)
 ![release](https://img.shields.io/github/v/release/Hacktoberfest-GYE/hacktoberfestgye-landing) -->
 
-<!-- ## ~$ git init -->
+## ~$ git init
+
+Para estar enterado de nuevas actualizaciones respecto al evento puedes seguirnos en:
+
+[![Instagram](https://img.shields.io/badge/hacktoberfestgye-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/hacktoberfestgye/)
+
+[![Facebook](https://img.shields.io/badge/hacktoberfestgye-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/hacktoberfestgye)
+
+[![LinkedIn](https://img.shields.io/badge/hacktoberfestgye-%230077B5.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/company/hacktoberfestgye)
+
+[![GitHub](https://img.shields.io/badge/HacktoberfestGYE-%23121011.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Hacktoberfest-GYE)
+
+[![X](https://img.shields.io/badge/HacktoberfestGYE-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/hacktoberfestgye)
+
+Para contactarte con el team organizador puedes escribir al [WhatsApp](https://wa.me/message/AAI3OELJXGBII1) o al correo: <hfteam@hacktoberfestgye.org>
 
 ## ~$ git clone Hacktoberfest
 
@@ -33,22 +47,6 @@ Para participar en el evento global debes [regístrate con tu cuenta de GitLab/G
 ### ¿Qué necesitas para participar?
 
 Si quieres participar en el taller para hacer tus pull/merge request necesitas llevar tu laptop para que puedas desarrollar tus contribuciones. Y no es necesario tener conocimientos en programación.
-
-### Contacto
-
-Para estar enterado de nuevas actualizaciones respecto al evento puedes seguirnos en:
-
-Instagram: [@hacktoberfestgye](https://www.instagram.com/hacktoberfestgye/)
-
-Facebook: [Hacktoberfest-GYE](https://www.facebook.com/hacktoberfestgye)
-
-X: [Hacktoberfest-GYE](https://x.com/hacktoberfestec)
-
-LinkedIn: [Hacktoberfest-GYE](https://www.linkedin.com/company/hacktoberfestgye)
-
-GitHub: [Hacktoberfest-GYE](https://github.com/Hacktoberfest-GYE)
-
-Para contactarte con el organizador puedes escribir al [WhatsApp](https://wa.me/message/AAI3OELJXGBII1) o al correo de la comunidad: <hfteam@hacktoberfestgye.org>
 
 ## ~$ git push -u origin evento-2024
 
