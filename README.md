@@ -17,7 +17,7 @@ Para estar enterado de nuevas actualizaciones respecto al evento puedes seguirno
 
 [![GitHub](https://img.shields.io/badge/HacktoberfestGYE-%23121011.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Hacktoberfest-GYE)
 
-[![X](https://img.shields.io/badge/HacktoberfestGYE-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/hacktoberfestgye)
+[![X](https://img.shields.io/badge/HacktoberfestGYE-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/hacktoberfestec)
 
 Para contactarte con el team organizador puedes escribir al [WhatsApp](https://wa.me/message/AAI3OELJXGBII1) o al correo: <hfteam@hacktoberfestgye.org>
 
