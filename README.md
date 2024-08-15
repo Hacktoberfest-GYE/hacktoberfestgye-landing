@@ -38,22 +38,15 @@ Si quieres participar en el taller para hacer tus pull/merge request necesitas l
 
 Para estar enterado de nuevas actualizaciones respecto al evento puedes seguirnos en:
 
-Instagram:
-[@hacktoberfestgye](https://www.instagram.com/hacktoberfestgye/)
-[@funpython](https://www.instagram.com/hacktoberfestgye/)
+Instagram: [@hacktoberfestgye](https://www.instagram.com/hacktoberfestgye/)
 
-Facebook:
-[Hacktoberfest-GYE](https://www.facebook.com/hacktoberfestgye)
+Facebook: [Hacktoberfest-GYE](https://www.facebook.com/hacktoberfestgye)
 
-X:
-[Hacktoberfest-GYE](https://x.com/hacktoberfestec)
+X: [Hacktoberfest-GYE](https://x.com/hacktoberfestec)
 
-LinkedIn:
-[Hacktoberfest-GYE](https://www.linkedin.com/company/hacktoberfestgye)
+LinkedIn: [Hacktoberfest-GYE](https://www.linkedin.com/company/hacktoberfestgye)
 
-GitHub:
-
-[Hacktoberfest-GYE](https://github.com/Hacktoberfest-GYE)
+GitHub: [Hacktoberfest-GYE](https://github.com/Hacktoberfest-GYE)
 
 Para contactarte con el organizador puedes escribir al [WhatsApp](https://wa.me/message/AAI3OELJXGBII1) o al correo de la comunidad: <hfteam@hacktoberfestgye.org>
 
