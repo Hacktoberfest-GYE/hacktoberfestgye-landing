@@ -268,8 +268,9 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+    background-image: url('{{ site.baseurl }}/img/header-bg-ht.png');
     background-attachment: scroll;
-    background-color: black;
+    /* background-color: black; */
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -279,8 +280,10 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 300px;
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 2;
 }
 
 header .intro-text .intro-lead-in {
@@ -298,6 +301,21 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+
+}
+
+
+#main-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background-color: #007bff; */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 @media(min-width:768px) {
