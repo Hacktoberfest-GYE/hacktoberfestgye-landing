@@ -69,6 +69,14 @@ h6 {
     background-color: #222;
 }
 
+.bg-light-beige {
+    background-color: #F3F0E0;
+}
+
+.bg-beige {
+    background-color: #F3F0E0;
+}
+
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
