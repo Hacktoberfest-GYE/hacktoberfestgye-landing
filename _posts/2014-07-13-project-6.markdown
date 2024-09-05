@@ -1,0 +1,11 @@
+---
+title: Round Icons
+subtitle: Graphic Design
+layout: default
+modal-id: 6
+date: 2022-09-15
+img: image_f.jpeg
+thumbnail: image_f.jpeg
+alt: image-alt
+
+---

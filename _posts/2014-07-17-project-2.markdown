@@ -1,0 +1,11 @@
+---
+title: Escape
+subtitle: Website Design
+layout: default
+modal-id: 2
+date: 2022-09-15
+img: image_g.jpeg
+thumbnail: image_g.jpeg
+alt: image-alt
+
+---

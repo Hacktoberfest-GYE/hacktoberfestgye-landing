@@ -1,6 +1,45 @@
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
+# Site settings
+title: HacktoberfestGYE
+email: hfteam@hacktoberfestgye.org
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-title: [HACKTOBERFEST GYE 2024]
-description: [Information and contribution page]
+
+# Team names, titles and social links
+people:
+- name: HFTEAM
+  pic: none
+  position: Organizer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: kernel
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: instagram
+    url: https://www.instagram.com/hacktoberfestgye
+  - title: github
+    url: https://github.com/FunPythonEC/Hacktoberfest-GYE-2024
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Ecuador
+  - line: Guayaquil
+
+# Build settings
+markdown: kramdown
+permalink: pretty
