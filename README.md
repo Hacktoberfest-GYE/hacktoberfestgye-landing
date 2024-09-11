@@ -42,7 +42,7 @@ El evento contará con mentores que guiarán a participantes a lograr con éxito
 Para participar en el evento global debes [regístrate con tu cuenta de GitLab/GitHub](https://Hacktoberfest.com/)
 
 - El Preptember será inagurado  y tendrá lugar en las instalaciones de UEESS **desde las 10:00 a 17:30 el dia viernes 13 de septiembre**.
-- El Hacktoberfest será presencial y tendrá lugar en las instalaciones de UCSG **desde las 10:00 a 17:30 el dia sábado 12 de octubre**.
+- El Hacktoberfest será presencial y tendrá lugar en las instalaciones de UCSG **desde las 10:00 a 17:30 el dia sábado 19 de octubre**.
 
 ### ¿Qué necesitas para participar?
 
