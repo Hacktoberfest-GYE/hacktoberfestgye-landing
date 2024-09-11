@@ -183,6 +183,11 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
+.navbar-default-dark {
+    border-color: #222 !important;
+    background-color: #222 !important;
+}
+
 .navbar-default .navbar-brand {
     font-family: "Space Grotesk","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
