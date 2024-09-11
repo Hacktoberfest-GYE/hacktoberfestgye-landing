@@ -52,9 +52,7 @@ Si quieres participar en el taller para hacer tus pull/merge request necesitas l
 
 ### Participa y gana
 
-Digital Ocean regalará: “Una camiseta Hacktoberfest de edición limitada o sembrar un árbol conmemorativo por enviar cuatro contribuciones válidas en repositorios públicos entre el 1 y el 31 de octubre”.
-
-- En Hacktober Fest GYE, creemos que es importante diversificar las oportunidades y actividades para involucrar a más personas de otras áreas a habitar el mundo de la tecnología, por ello se realizaran concursos de programación de diferentes áreas, retos de arte y diseño.
+- En Hacktoberfest GYE, creemos que es importante diversificar las oportunidades y actividades para involucrar a más personas de otras áreas a habitar el mundo de la tecnología, por ello se realizaran concursos de programación de diferentes áreas, retos de arte y diseño.
 - No importa tu experiencia, ¡puedes participar en Hacktoberfest!
 
 Estos son algunos ejemplos de formas en que puede contribuir a proyectos de código abierto:
@@ -74,4 +72,6 @@ Estos son algunos ejemplos de formas en que puede contribuir a proyectos de cód
 
 ### Código de Conducta
 
-Los eventos de Hacktoberfest son amigables, abiertos, e inclusivos. Por favor leer [nuestro código de conducta](CODE_OF_CONDUCT.md) antes de asistir al evento. Happy hacking!
+Los eventos de Hacktoberfest son amigables, abiertos, e inclusivos. Por favor leer [nuestro código de conducta](CODE_OF_CONDUCT.md) antes de asistir al evento.
+
+Happy hacking!
