@@ -643,6 +643,18 @@ section h3.section-subheading {
         align-items: center;     /* Center items vertically */
     }
 
+    #venue-partners-row {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    #media-partners-row {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+
 }
 
 @media(min-width:1200px) {
