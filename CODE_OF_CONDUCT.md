@@ -1,3 +1,11 @@
+---
+layout: custom_page
+title: "Código de conducta"
+permalink: /code-conduct/
+summary: "Código de conducta"
+---
+
+
 # Código de Conducta
 
 ## 1. Propósito
