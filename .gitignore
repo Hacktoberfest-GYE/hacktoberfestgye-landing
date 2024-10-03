@@ -1,37 +1,24 @@
-_site
+# build output
+dist/
 
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# generated types
+.astro/
 
-# Folder config file
-Desktop.ini
+# dependencies
+node_modules/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# environment variables
+.env
+.env.production
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# macOS-specific files
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Icon must ends with two \r.
-Icon
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+# jetbrains setting folder
+.idea/
