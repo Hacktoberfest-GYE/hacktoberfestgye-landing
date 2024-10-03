@@ -1,0 +1,30 @@
+# Ignore Jekyll generated files
+_site/
+.jekyll-cache/
+
+# Ignore system-specific configuration files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+
+# Ignore Windows installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Ignore custom configuration folders (if any)
+config/
+tmp/
+logs/
+
+# Ignore local development files
+node_modules/
+vendor/bundle/
