@@ -1,17 +1,21 @@
-import React, { useEffect, useRef, useState } from 'react';
-import menuData from '../content/global/menu.json';
+import React, { useEffect, useRef, useState } from "react";
+import menuData from "../content/global/menu.json";
 
-const Navbar = ({ className = '', classNameHideScroll = '' }) => {
-  const [activeSection, setActiveSection] = useState('');
+const Navbar = ({
+  className = "",
+  classNameHideScroll = "",
+  showMenu = true,
+}) => {
+  const [activeSection, setActiveSection] = useState("");
   const [scrollingDown, setScrollingDown] = useState(false);
-
+  const [menuOpen, setMenuOpen] = useState(false);
   const observerRef = useRef(null);
 
   // Implementación del IntersectionObserver para detectar secciones visibles
   useEffect(() => {
     const options = {
       root: null,
-      rootMargin: '0px',
+      rootMargin: "0px",
       threshold: 0.3, // Sección visible en un 30%
     };
 
@@ -24,7 +28,7 @@ const Navbar = ({ className = '', classNameHideScroll = '' }) => {
     }, options);
 
     // Observar cada sección
-    const sections = document.querySelectorAll('section');
+    const sections = document.querySelectorAll("section");
     sections.forEach((section) => {
       observerRef.current.observe(section);
     });
@@ -50,22 +54,26 @@ const Navbar = ({ className = '', classNameHideScroll = '' }) => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   // Añadir comportamiento de scroll suave
   useEffect(() => {
-    document.documentElement.style.scrollBehavior = 'smooth';
+    document.documentElement.style.scrollBehavior = "smooth";
     return () => {
-      document.documentElement.style.scrollBehavior = '';
+      document.documentElement.style.scrollBehavior = "";
     };
   }, []);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   return (
     <nav
       className={`p-4 fixed w-full z-10 top-0 transition-colors duration-500 ${className} ${
-        scrollingDown ? 'bg-secondary' : classNameHideScroll
+        scrollingDown ? "bg-secondary" : classNameHideScroll
       }`}
     >
       <div className="container mx-auto flex justify-between items-center px-4 xl:px-0">
@@ -74,59 +82,105 @@ const Navbar = ({ className = '', classNameHideScroll = '' }) => {
             className="duration-300 ease-out"
             src="/images/logos/hacktoberfest.png"
             alt="Site Logo"
-            style={{ maxHeight: scrollingDown ? '3em' : '4.5em' }}
+            style={{ maxHeight: scrollingDown ? "3em" : "4.5em" }}
           />
         </a>
         <div className="hidden md:flex space-x-4">
-          {menuData.data.map((item, index) => (
+          {showMenu &&
+            menuData.data.map((item, index) => (
+              <a
+                key={index}
+                href={item.href}
+                className={`navbar-link px-3 py-2 rounded-md ${
+                  activeSection === item.href.split("#")[1]
+                    ? "bg-primary text-black"
+                    : "text-white hover:bg-secondary-blue"
+                }`}
+              >
+                {item.title}
+              </a>
+            ))}
+          {!showMenu && (
             <a
-              key={index}
-              href={item.href}
-              className={`navbar-link px-3 py-2 rounded-md ${
-                activeSection === item.href.split('#')[1]
-                  ? 'bg-primary text-black'
-                  : 'text-white hover:bg-secondary-blue'
-              }`}
+              href="/"
+              className="navbar-link px-3 py-2 rounded-md text-white hover:bg-secondary-blue"
             >
-              {item.title}
+              Inicio
             </a>
-          ))}
+          )}
         </div>
         <div className="md:hidden">
-          <button id="menu-toggle" className="text-white focus:outline-none">
-            <svg
-              className="w-8 h-8"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16m-7 6h7"
-              ></path>
-            </svg>
+          <button
+            id="menu-toggle"
+            className="text-white focus:outline-none"
+            onClick={toggleMenu}
+          >
+            {menuOpen ? (
+              <svg
+                className="w-8 h-8"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            ) : (
+              <svg
+                className="w-8 h-8"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            )}
           </button>
         </div>
       </div>
 
       {/* Menú de navegación móvil */}
-      <div id="mobile-menu" className="hidden md:hidden space-y-4">
-        {menuData.data.map((item, index) => (
+      <div
+        id="mobile-menu"
+        className={`md:hidden flex flex-col space-y-4 p-4 bg-secondary absolute left-0 top-16 w-full transition-all duration-500 ${
+          menuOpen ? "block" : "hidden"
+        }`}
+      >
+        {showMenu &&
+          menuData.data.map((item, index) => (
+            <a
+              key={index}
+              href={item.href}
+              className={`navbar-link text-white block px-3 py-2 rounded-md ${
+                activeSection === item.href.split("#")[1]
+                  ? "bg-gray-300 text-black"
+                  : ""
+              }`}
+              onClick={toggleMenu}
+            >
+              {item.title}
+            </a>
+          ))}
+
+        {!showMenu && (
           <a
-            key={index}
-            href={item.href}
-            className={`navbar-link text-white block px-3 py-2 rounded-md ${
-              activeSection === item.href.split('#')[1]
-                ? 'bg-gray-300 text-black'
-                : ''
-            }`}
+            href="/"
+            className="navbar-link text-white block px-3 py-2 rounded-md"
           >
-            {item.title}
+            Inicio
           </a>
-        ))}
+        )}
       </div>
     </nav>
   );

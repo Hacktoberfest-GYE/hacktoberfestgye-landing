@@ -1,0 +1,19 @@
+---
+import * as Post from '../../CODE_OF_CONDUCT.md';
+import Navbar from '../components/Navbar';
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="HacktoberfestGYE - Evento de Código Abierto">
+  <header>
+    <Navbar classNameHideScroll='bg-secondary' showMenu={false} client:load />
+  </header>
+  <section class="mt-10">
+    <main class="container mx-auto px-4 lg:px-0 py-20 md:py-24 lg:py-28">
+      <div class="flex justify-center">
+        <article class="prose">
+          <Fragment set:html={Post.compiledContent()} />
+        </article>
+      </div>
+    </main>
+  </section>
+</Layout>
