@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "title": "Participa",
+      "href": "#benefits"
+    },
+    {
+      "title": "Galería",
+      "href": "#portfolio"
+    },
+    {
+      "title": "Organizadores",
+      "href": "#team"
+    },
+    {
+      "title": "FAQ",
+      "href": "#faq"
+    },
+    {
+      "title": "Socios Estratégicos",
+      "href": "#partners"
+    }
+  ]
+}
