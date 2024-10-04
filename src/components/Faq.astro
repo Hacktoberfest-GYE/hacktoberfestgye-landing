@@ -1,0 +1,24 @@
+---
+import * as FaqPost from '../content/sections/faq.md';
+---
+
+<section
+  id="faq"
+  class="container mx-auto px-4 lg:px-0 py-20 md:py-24 lg:py-28"
+>
+  <div class="flex flex-col w-full gap-y-4 items-center">
+    <h2 class="text-black font-bold text-2xl lg:text-3xl/[3rem]">
+      {FaqPost.frontmatter.title}
+    </h2>
+    <div class="italic text-lg mb-6">{FaqPost.frontmatter.summary}</div>
+    <div class="prose">
+      <Fragment set:html={FaqPost.compiledContent()} />
+      <p class="text-center mt-10">{FaqPost.frontmatter.message}</p>
+      <p class="text-center">
+        <a href={`mailto:${FaqPost.frontmatter.email}`}
+          >{FaqPost.frontmatter.email}</a
+        >
+      </p>
+    </div>
+  </div>
+</section>
