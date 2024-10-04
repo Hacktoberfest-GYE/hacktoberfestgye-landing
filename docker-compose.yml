@@ -1,0 +1,15 @@
+services:
+  jekyll:
+    build: . 
+    container_name: hacktoberfestGye
+    command: jekyll serve --watch --force_polling --host 0.0.0.0
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+      - gem_cache:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=development
+
+volumes:
+  gem_cache:
