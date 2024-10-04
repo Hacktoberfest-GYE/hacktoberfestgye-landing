@@ -1,5 +1,6 @@
 ---
 import '@fontsource-variable/inter';
+import Footer from '../components/Footer.astro';
 
 interface Props {
   title: string;
@@ -22,6 +23,7 @@ const { title } = Astro.props;
     class="bg-body relative scroll-smooth antialiased selection:bg-neutral-300 selection:text-black"
   >
     <slot />
+    <Footer />
   </body>
 </html>
 

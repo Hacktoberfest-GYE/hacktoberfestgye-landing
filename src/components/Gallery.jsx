@@ -1,25 +1,25 @@
-import { useEffect } from 'react';
-import 'photoswipe/style.css';
+import { useEffect } from "react";
+import "photoswipe/style.css";
 
 const images = [
-  { src: '/images/portfolio/image_y.jpeg', title: 'Imagen 1' },
-  { src: '/images/portfolio/image_g.jpeg', title: 'Imagen 2' },
-  { src: '/images/portfolio/image_e.jpeg', title: 'Imagen 3' },
-  { src: '/images/portfolio/image_d.jpeg', title: 'Imagen 4' },
-  { src: '/images/portfolio/image_x.jpeg', title: 'Imagen 5' },
-  { src: '/images/portfolio/image_f.jpeg', title: 'Imagen 6' },
+  { src: "/images/portfolio/image_y.jpeg", title: "Imagen 1" },
+  { src: "/images/portfolio/image_g.jpeg", title: "Imagen 2" },
+  { src: "/images/portfolio/image_e.jpeg", title: "Imagen 3" },
+  { src: "/images/portfolio/image_d.jpeg", title: "Imagen 4" },
+  { src: "/images/portfolio/image_x.jpeg", title: "Imagen 5" },
+  { src: "/images/portfolio/image_f.jpeg", title: "Imagen 6" },
 ];
 
 const Gallery = () => {
   useEffect(() => {
     const init = async () => {
-      const module = await import('photoswipe/lightbox');
+      const module = await import("photoswipe/lightbox");
       const PhotoSwipeLightbox = module.default;
 
       const lightbox = new PhotoSwipeLightbox({
-        gallery: '#gallery',
-        children: 'a',
-        pswpModule: () => import('photoswipe'),
+        gallery: "#gallery",
+        children: "a",
+        pswpModule: () => import("photoswipe"),
       });
 
       lightbox.init();
@@ -33,11 +33,11 @@ const Gallery = () => {
       id="portfolio"
       className="container mx-auto px-4 lg:px-0 py-20 md:py-24 lg:py-28"
     >
-      <div class="flex flex-col w-full gap-y-4 items-center mb-8">
-        <h2 class="text-black font-bold text-2xl lg:text-3xl/[3rem]">
+      <div className="flex flex-col w-full gap-y-4 items-center mb-8">
+        <h2 className="text-black font-bold text-2xl lg:text-3xl/[3rem]">
           Galería de Eventos Anteriores
         </h2>
-        <div class="italic text-lg mb-6">
+        <div className="italic text-lg mb-6">
           Revive los momentos destacados de Hacktoberfest en nuestras ediciones
           anteriores.
         </div>
