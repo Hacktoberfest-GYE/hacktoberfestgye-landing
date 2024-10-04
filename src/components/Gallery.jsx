@@ -33,7 +33,7 @@ const Gallery = () => {
       id="portfolio"
       className="container mx-auto px-4 lg:px-0 py-20 md:py-24 lg:py-28"
     >
-      <div className="flex flex-col w-full gap-y-4 items-center mb-8">
+      <div className="flex flex-col w-full gap-y-4 lg:items-center mb-8">
         <h2 className="text-black font-bold text-2xl lg:text-3xl/[3rem]">
           Galería de Eventos Anteriores
         </h2>
