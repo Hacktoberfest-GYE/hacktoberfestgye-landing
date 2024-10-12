@@ -48,7 +48,7 @@ const Gallery = () => {
       >
         {images.map((image, index) => (
           <a
-            class="rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative"
+            className="rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative"
             href={image.src}
             key={index}
             target="_blank"
