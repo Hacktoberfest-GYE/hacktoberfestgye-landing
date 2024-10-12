@@ -1,0 +1,26 @@
+---
+interface Props {
+  idSection: string;
+  title: string;
+  summary: string;
+  buttonText: string;
+  buttonUrl: string;
+}
+
+const { idSection, buttonText, buttonUrl, title, summary } = Astro.props;
+---
+
+<section id={idSection} class="bg-secondary-blue rounded-xl p-8 lg:p-16 my-2">
+  <div class="flex flex-col gap-y-4 items-center">
+    <h2 class="text-white font-bold text-2xl lg:text-3xl/[3rem] text-center">{title}</h2>
+    <p class="text-muted text-lg italic text-center">{summary}</p>
+    <a
+      class="bg-primary rounded-xl p-4 hover:opacity-85 uppercase font-semibold"
+      href={buttonUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {buttonText}
+    </a>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+---
+import features from '../content/sections/features.json';
+---
+
+<section
+  id="benefits"
+  class="container mx-auto px-4 lg:px-0 py-20 md:py-24 lg:py-28"
+>
+  <div class="flex flex-col w-full gap-y-4 items-center mb-8">
+    <h2 class="text-black font-bold text-2xl lg:text-3xl/[3rem]">
+      Razones para Participar en Hacktoberfest
+    </h2>
+    <div class="italic text-lg mb-6">
+      Descubre los beneficios clave de unirte a esta celebración de código
+      abierto.
+    </div>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {
+      features['data'].map((feature) => (
+        <div class="flex flex-col gap-4 items-center">
+          <span
+            class="[&>svg]:w-8 [&>svg]:h-8 bg-secondary-blue rounded-full text-white p-6 mb-4"
+            set:html={feature.icon}
+          />
+          <h3 class="font-bold">{feature.title}</h3>
+          <p class="text-center">{feature.summary}</p>
+        </div>
+      ))
+    }
+  </div>
+</section>

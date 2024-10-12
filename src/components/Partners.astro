@@ -1,0 +1,131 @@
+---
+const partners = [
+  {
+    url: 'https://www.ucsg.edu.ec',
+    image: '/images/logos/ucsg.png',
+    title: 'Universidad Católica de Santiago de Guayaquil - Ecuador',
+    type: 'venue',
+  },
+  {
+    url: 'https://uees.edu.ec',
+    image: '/images/logos/uees.png',
+    title: 'Universidad Espíritu Santo - Ecuador',
+    type: 'venue',
+  },
+  {
+    url: 'https://www.espol.edu.ec/es',
+    image: '/images/logos/logo_espol.png',
+    title: 'Escuela Superior Politécnica del Litoral - Ecuador',
+    type: 'venue',
+  },
+  {
+    url: 'https://openlab.ec',
+    image: '/images/logos/logo_openlabec.png',
+    title: 'OpenLAB EC',
+    type: 'media',
+  },
+  {
+    url: 'https://epico.gob.ec',
+    image: '/images/logos/épico.png',
+    title: 'ÉPICO',
+    type: 'media',
+  },
+  {
+    url: 'https://www.condorcoders.com',
+    image: '/images/logos/condorcoders.png',
+    title: 'Condor Coders',
+    type: 'media',
+  },
+  {
+    url: 'https://gdg.community.dev/gdg-guayaquil',
+    image: '/images/logos/gdg-guayaquil.png',
+    title: 'GDG Guayaquil',
+    type: 'tech',
+  },
+  {
+    url: 'https://innovatlatam.com',
+    image: '/images/logos/innova-t-latam-2024.png',
+    title: 'Innova-T LATAM 2024',
+    type: 'tech',
+  },
+  {
+    url: 'https://www.nftslatam.art',
+    image: '/images/logos/ntfs-latam-art.png',
+    title: 'NTFs LATAM',
+    type: 'tech',
+  },
+];
+---
+
+<section
+  id="partners"
+  class="container mx-auto px-4 lg:px-0 py-20 md:py-24 lg:py-28"
+>
+  <div class="flex flex-col w-full gap-y-4 items-center mb-16">
+    <h2 class="text-black font-bold text-2xl lg:text-3xl/[3rem]">
+      Socios estratégicos
+    </h2>
+  </div>
+  <div class="mb-8 grid grid-cols-1 lg:grid-cols-2">
+    <div class="text-center">
+      <h4 class="text-lg font-semibold mb-8">Venue Partners</h4>
+      <div class="flex flex-row flex-wrap gap-8 justify-center">
+        {
+          partners
+            .filter((item) => item.type === 'venue')
+            .map(({ url, image, title }) => (
+              <a href={url} target="_blank" title={title}>
+                <img
+                  class="h-28 w-36 object-scale-down"
+                  src={image}
+                  loading="lazy"
+                  width="200"
+                  height="100"
+                />
+              </a>
+            ))
+        }
+      </div>
+    </div>
+    <div class="text-center">
+      <h4 class="text-lg font-semibold mb-8">Media Partners</h4>
+      <div class="flex flex-row flex-wrap gap-8 justify-center">
+        {
+          partners
+            .filter((item) => item.type === 'media')
+            .map(({ url, image, title }) => (
+              <a href={url} target="_blank" title={title}>
+                <img
+                  class="h-28 w-36 object-scale-down"
+                  src={image}
+                  loading="lazy"
+                  width="200"
+                  height="100"
+                />
+              </a>
+            ))
+        }
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+    <h4 class="text-lg font-semibold mb-8">Tech Partners</h4>
+    <div class="flex flex-row flex-wrap gap-8 justify-center">
+      {
+        partners
+          .filter((item) => item.type === 'tech')
+          .map(({ url, image, title }) => (
+            <a href={url} target="_blank" title={title}>
+              <img
+                class="h-28 w-36 object-scale-down"
+                src={image}
+                loading="lazy"
+                width="200"
+                height="100"
+              />
+            </a>
+          ))
+      }
+    </div>
+  </div>
+</section>
