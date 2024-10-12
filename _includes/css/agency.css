@@ -597,13 +597,24 @@ section h3.section-subheading {
      align-items: center;
  }
 
- .item-logo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-  }
+   .item-logo {
+       display: flex;
+       justify-content: center;
+       align-items: center; 
+       text-align: center;
+       padding-top: 2rem;
+       padding-bottom: 2rem; 
+   }
+
+   .item-logo .organizer-logo {
+    min-height: 300px;
+   }
+
+   .item-logo img {
+       max-width: 100%;
+       height: auto;
+       object-fit: contain;
+   }
 
 
 @media(min-width:768px) {
@@ -705,6 +716,10 @@ section h3.section-subheading {
         padding-top: 0;
         padding-bottom: 2rem;
     }
+    
+    .item-logo .organizer-logo {
+     min-height: 0;
+    }
 
 }
 
@@ -734,6 +749,10 @@ section h3.section-subheading {
     .container-category {
         padding-top: 1rem;
         padding-bottom: 2rem;
+    }
+
+    .item-logo .organizer-logo {
+        min-height: 0;
     }
  
 }
