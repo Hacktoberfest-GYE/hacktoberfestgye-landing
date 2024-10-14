@@ -1,20 +1,19 @@
-# Use the latest Jekyll image based on Ruby 3.x
-FROM jekyll/jekyll:latest
+FROM node:lts-alpine AS base
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+RUN corepack enable
+COPY . /app
+WORKDIR /app
 
-# Set the working directory inside the container
-WORKDIR /srv/jekyll
+FROM base AS prod-deps
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prod --frozen-lockfile
 
-# Copy the Gemfile and Gemfile.lock first to leverage Docker cache
-COPY Gemfile Gemfile.lock ./
+FROM base AS build
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
+RUN pnpm run build
 
-# Install the project dependencies
-RUN gem install bundler:2.3.25 && bundle install
-
-# Copy the rest of the project files
-COPY . .
-
-# Expose port 4000 to access the Jekyll site
-EXPOSE 4000
-
-# Command to run Jekyll server with file watching and live reload
-CMD ["jekyll", "serve", "--watch", "--force_polling", "--host", "0.0.0.0"]
+FROM base
+COPY --from=prod-deps /app/node_modules /app/node_modules
+COPY --from=build /app/dist /app/dist
+EXPOSE 4321
+CMD [ "pnpm", "start" ]
