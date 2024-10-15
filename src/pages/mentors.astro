@@ -24,7 +24,7 @@ import Layout from '../layouts/Layout.astro';
 	    {
 	      mentors.map((mentor) => (
 	        <div class="flex flex-col gap-4 items-center">
-			  <img src={mentor.image} alt={mentor.name} className="mentor-image" />
+			  <img src={mentor.images} alt={mentor.name} className="mentor-image" />
 	          <h3 class="font-bold">{mentor.name}</h3>
 	          <p class="text-center">{mentor.description}</p>
 		      <div class="socials flex flex-row gap-4 order-2">
