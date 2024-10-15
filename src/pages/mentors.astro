@@ -4,8 +4,10 @@ import Navbar from '../components/Navbar';
 import Layout from '../layouts/Layout.astro';
 ---
 
-
-<Layout title="HacktoberfestGYE - Evento de Código Abierto">
+<Layout
+  title="HacktoberfestGYE - Evento de Código Abierto"
+  description="Conoce a los mentores del Hacktoberfest. Descubre sus perfiles, habilidades y experiencias en nuestra lista de mentores."
+>
   <header>
     <Navbar classNameHideScroll='bg-secondary' showMenu={false} client:load />
   </header>
