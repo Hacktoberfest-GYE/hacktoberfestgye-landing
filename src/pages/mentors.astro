@@ -1,0 +1,42 @@
+---
+import mentors from '../content/features/mentors-list.json';
+import Navbar from '../components/Navbar';
+import Layout from '../layouts/Layout.astro';
+---
+
+
+<Layout title="HacktoberfestGYE - Evento de Código Abierto">
+  <header>
+    <Navbar classNameHideScroll='bg-secondary' showMenu={false} client:load />
+  </header>
+	<section
+	  id="mentors"
+	  class="container mx-auto px-4 lg:px-0 py-20 md:py-24 lg:py-28"
+	>
+	  <div class="flex flex-col w-full gap-y-4 items-center mb-8">
+	    <h2 class="text-black font-bold text-2xl lg:text-3xl/[3rem]">
+	      ¡Conoce a los mentores del Hacktoberfest!
+	    </h2>
+	  </div>
+	  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+	    {
+	      mentors.map((mentor) => (
+	        <div class="flex flex-col gap-4 items-center">
+			  <img src={mentor.image} alt={mentor.name} className="mentor-image" />
+	          <h3 class="font-bold">{mentor.name}</h3>
+	          <p class="text-center">{mentor.description}</p>
+			  <p class="text-center">
+		      <div class="socials flex flex-row gap-4 order-2">
+				<a href={mentor.linkedin}>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#000"><path d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zM8.951 9.404H6.165V17.5H8.95V9.404zm6.841-.192c-1.324 0-1.993.629-2.385 1.156l-.127.181V9.403h-2.786l.01.484c.006.636.007 1.748.005 2.93l-.015 4.683h2.786v-4.522c0-.242.018-.484.092-.657.202-.483.66-.984 1.43-.984.955 0 1.367.666 1.408 1.662l.003.168V17.5H19v-4.643c0-2.487-1.375-3.645-3.208-3.645zM7.576 5.5C6.623 5.5 6 6.105 6 6.899c0 .73.536 1.325 1.378 1.392l.18.006c.971 0 1.577-.621 1.577-1.398C9.116 6.105 8.53 5.5 7.576 5.5z"/></svg>
+				</a>
+			    <a href={`mailto:${mentor.mail}`}>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+				</a>
+		        </div>
+	        </div>
+	      ))
+	    }
+	  </div>
+	</section>
+</Layout>
