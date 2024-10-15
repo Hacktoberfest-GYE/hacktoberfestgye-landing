@@ -1,33 +1,83 @@
 ---
 import '@fontsource-variable/inter';
 import Footer from '../components/Footer.astro';
+import { SEO } from "astro-seo";
 
 interface Props {
   title: string;
+  description: string;
+  image?: string;
+  canonicalURL?: string;
 }
 
-const { title } = Astro.props;
+const { 
+  title, 
+  description, 
+  image = "https://hacktoberfestgye.org/logo-hacktober.webp",
+  canonicalURL = Astro.url.href,
+} = Astro.props;
+
+const siteTitle = "HacktoberfestGYE";
+const fullTitle = `${title} | ${siteTitle}`;
 ---
 
 <!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <SEO
+      title={fullTitle}
+      description={description}
+      openGraph={{
+        basic: {
+          title: fullTitle,
+          type: "website",
+          image: image,
+          url: canonicalURL,
+        },
+        optional: {
+          locale: "es_EC",
+          siteName: siteTitle,
+        },
+      }}
+      twitter={{
+        card: "summary_large_image",
+        site: "@hacktoberfestec",
+        creator: "@hacktoberfestec",
+        title: fullTitle,
+        description: description,
+        image: image,
+      }}
+      extend={{
+        meta: [
+          {name: "viewport", content: "width=device-width, initial-scale=1"},
+          {name: "generator", content: Astro.generator},
+          {name: "theme-color", content: "#000000"},
+          {name: "author", content: "HacktoberfestGYE"},
+          {name: "keywords", content: "Hacktoberfest, HacktoberfestGYE, HacktoberfestGYE 2024, Hacktoberfest Ecuador, Hacktoberfest Guayaquil, Hacktoberfest Guayaquil 2024, Hacktoberfest Ecuador 2024, Hacktoberfest Guayaquil Ecuador"},
+          {property: "og:locale", content: "es_EC"},
+          {name: "robots", content: "index, follow"},
+          {name: "googlebot", content: "index, follow"},
+        ],
+        link: [
+          {rel: "icon", href: "/favicon.svg", type: "image/svg+xml"},
+          {rel: "canonical", href: canonicalURL},
+          {rel: "alternate", hreflang: "es", href: canonicalURL},
+        ]
+      }}
+    />
+    <link rel="sitemap" href="/sitemap-index.xml" />
   </head>
-  <body
-    class="bg-body relative scroll-smooth antialiased selection:bg-neutral-300 selection:text-black"
-  >
-    <slot />
+  <body class="bg-body relative scroll-smooth antialiased selection:bg-neutral-300 selection:text-black">
+    <a href="#main-content" class="sr-only focus:not-sr-only">Saltar al contenido principal</a>
+    <main id="main-content">
+      <slot />
+    </main>
     <Footer />
   </body>
 </html>
 
-<style>
+<style is:global>
   html,
   body {
     margin: 0;
