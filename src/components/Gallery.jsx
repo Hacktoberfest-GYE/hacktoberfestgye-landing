@@ -55,6 +55,7 @@ const Gallery = () => {
             data-cropped="true"
             data-pswp-width="800"
             data-pswp-height="600"
+            rel="noreferrer"
           >
             <img
               loading="lazy"
