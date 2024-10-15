@@ -1,6 +1,7 @@
 # Hacktoberfest-GYE-2024
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+
 <!-- ![contributors](https://img.shields.io/github/contributors/Hacktoberfest-GYE/hacktoberfestgye-landing?style=plastic)
 ![last commit](https://img.shields.io/github/last-commit//Hacktoberfest-GYE/hacktoberfestgye-landing?style=plastic)
 ![release](https://img.shields.io/github/v/release/Hacktoberfest-GYE/hacktoberfestgye-landing) -->
@@ -41,7 +42,7 @@ El evento contará con mentores que guiarán a participantes a lograr con éxito
 
 Para participar en el evento global debes [regístrate con tu cuenta de GitLab/GitHub](https://Hacktoberfest.com/)
 
-- El Preptember será inagurado  y tendrá lugar en las instalaciones de UEESS **desde las 10:00 a 17:30 el dia viernes 13 de septiembre**.
+- El Preptember será inagurado y tendrá lugar en las instalaciones de UEESS **desde las 10:00 a 17:30 el dia viernes 13 de septiembre**.
 - El Hacktoberfest será presencial y tendrá lugar en las instalaciones de UCSG **desde las 10:00 a 17:30 el dia sábado 19 de octubre**.
 
 ### ¿Qué necesitas para participar?
@@ -62,7 +63,7 @@ Estos son algunos ejemplos de formas en que puede contribuir a proyectos de cód
 | Escritura     | Documentación técnica     | Traducción de documentación                                 |
 | Diseño        | Pruebas                   | Experiencia de usuario, diseño gráfico, producción de video |
 | Evangelizador | Charlas, mentarías, blogs | Exposición en redes sociales                                |
-| Retos         | Coding game               | Arte/diseño                                        |
+| Retos         | Coding game               | Arte/diseño                                                 |
 
 ### Contribuidores
 

@@ -1,6 +1,6 @@
 services:
   jekyll:
-    build: . 
+    build: .
     container_name: hacktoberfestGye
     command: jekyll serve --watch --force_polling --host 0.0.0.0
     ports:

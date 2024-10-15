@@ -1,66 +1,66 @@
 [
-{
-  "images": "/images/speakers/alex-andrés-vélez-llaque.png",
-  "name": "Alex Andrés Vélez Llaque",
-  "mail": "velezllaquealex@gmail.com",
-  "bio": "Ingeniero en Ciencias de la Computación de Espol, con cuatro años de experiencia trabajando con tecnologías web como FullStack Developer, Organizer del Google Developer Groups Guayaquil, ex Google Summer of Code contributor en 2022, Google Summer of Code mentor en 2024 y ganador global del Nasa Space Apps Challenge en 2021.",
-  "talk": "Google Summer of Code: Impulsa tu Carrera con Proyectos Open Source a nivel Global.",
-  "talk_objectives": "El objetivo es dar a conocer e inspirar a más personas a que apliquen a programas como estos, que vean que si una persona como cualquier otra, de nuestra ciudad, pudo, entonces que todos pueden. Y en general generar interés en el valor de aplicar a proyectos de codigo abierto aunque no sea a través del GSoC."
-},
-{
-	"images": "/images/speakers/jean-carlos-correa.png",
-  "name": "Jean Carlos Correa",
-  "mail": "jean_car1993@hotmail.com",
-  "bio": "Apasionado del arte, la tecnología y la pedagogía. Ingeniero en computación y sistemas por la Universidad Agraria del Ecuador. Artista independiente Guayaquileño con una trayectoria artística de más de 10 años. Ubica su trabajo artístico entre la Danza contemporánea, teatro y circo",
-  "talk": "De Sonic Pi a instrumentos musicales precolombinos: explorando nuevas formar de desarrollar experiencias sonoras creativas.",
-  "talk_objectives": "-Introducir Sonic Pi como herramienta para la creación musical y su potencial para fusionar lo tradicional con lo digital.\n-Demostrar cómo traducir conceptos musicales a código de programación.\n-Explorar formas creativas de integrar instrumentos precolombinos en performances digitales.\n-Inspirar a los asistentes a experimentar con nuevas formas de expresión musical utilizando tecnología y elementos culturales tradicionales."
-},
-{
-	"images": "/images/speakers/juan-isidro-mejía-peña.png",
-  "name": "Juan Isidro Mejía Peña",
-  "mail": "juanisidromejia@gmail.com",
-  "bio": "Músico y programador. Estudió Dirección Orquestal en Ucrania y en Ecuador en la carrera de Ingeniería de Sistemas Administrativos Computarizados.Su formación dual lo ha convertido en un  apasionado por divulgar las tecnologías libres para la música. Posee una maestría en Pedagogía y Entrenamiento Musical y en lo relacionado a la tecnología se mantiene en el desarrollo de productos Blockchain en la comunidad de Dow7coin. Ha colaborado en eventos informáticos como artista, expositor o mentor en el FLISOL y el Hackaton . Actualmente es parte de la comunidad Guayaquil Tech docente de la Universidad Católica de Santiago de Guayaquil, de la Universidad de las Artes del Ecuador y del Colegio República de Francia ",
-  "talk": "La revolución del software libre en la música: El caso de Musescore vs. Finale",
-  "talk_objectives": "Objetivos:\n\nEntender la historia detrás de la creación de Musescore y su lucha por posicionarse entre los grandes programas de notación musical\n\nAprender sobre la importancia de la colaboración y la innovación en el desarrollo de software\n\nDescubrir cómo la comunidad de desarrolladores de software libre puede cambiar la forma en que creamos y compartimos música\n\nReflexionar sobre el papel del software libre en la música y su impacto en la industria\n"
-},
-{
-	"images": "/images/speakers/byron-andres-duarte-morejon.png",
-  "name": "BYRON ANDRES DUARTE MOREJON",
-  "mail": "b.duarte.apps@gmail.com",
-  "bio": "Ingeniero de software con trayectoria en el desarrollo y liderazgo de proyectos tecnológicos en sectores como: banca digital, facturación electrónica, mercados bursátiles, comercio digital y seguros médicos. Es un entusiasta de la IA y un firme creyente en el arte detrás de la ingeniería de software.",
-  "talk": "El rol del open source en la democratización de la inteligencia artificial",
-  "talk_objectives": "Mostrar el impacto del open source en la democratización de la IA."
-},
-{
-	"images": "/images/speakers/joel-choez.png",
-  "name": "Joel Choez",
-  "mail": "ejchoez@espol.edu.ec",
-  "bio": "Pentester - Telconet, Líder - Saturdays.AI Guayaquil, Ex presidente CIAP (Club de Inteligencia Artificial Politécnico)",
-  "talk": "Web LLM attacks",
-  "talk_objectives": "1. Comprender los ataques a LLM.\n2. Demostrar vulnerabilidades en LLM con PortSwigger.\n3. Explorar soluciones de seguridad para LLM."
-},
-{
-	"images": "/images/speakers/jonathan-zavala.png",
-  "name": "Jonathan Zavala",
-  "mail": "jonzavil@espol.edu.ec",
-  "bio": "Soy graduado de Ingeniería Mecatrónica en la ESPOL y actualmente soy pasante en el área de red team en Telconet. Me encanta viajar y hacer actividades al aire libre. Me apasiona la investigación y siempre estoy buscando aprender más sobre programación y diseño mecatrónico.",
-  "talk": "DISEÑO Y SIMULACIÓN DE UN VEHÍCULO AUTÓNOMO TERRESTRE NO TRIPULADO",
-  "talk_objectives": "Explicar cómo las herramientas de código abierto, como ROS, Onshape, Gazebo y RViz, permiten el desarrollo colaborativo y eficiente de vehículos autónomos terrestres no tripulados.\nMostrar cómo el diseño del vehículo se puede realizar en Onshape, permitiendo a los equipos trabajar de forma remota en un entorno colaborativo y en tiempo real.\nPresentar las capacidades de simulación física y dinámica de Gazebo, y cómo permite probar el comportamiento del vehículo en diferentes escenarios antes de construir un prototipo físico.\nExplicar cómo RViz se utiliza para visualizar la información sensorial y las trayectorias en tiempo real, mejorando la capacidad de monitorear y depurar el comportamiento del vehículo."
-},
-{
-	"images": "/images/speakers/giovanni-ernesto-bauz-garcía.png",
-  "name": "Giovanni Ernesto Bauz García",
-  "mail": "gbauz3t@gmail.com",
-  "bio": "Soy un desarrollador frontend actualmente me encuentro desarrollando proyecto freelance tanto web,moviles tengo una startup llamada digital webdise la cual ofrece diferentes cursos de desarrollo web y tambien desarrollamos proyectos para pequeños y medianos emprendimientos",
-  "talk": "Demostración:App de Personalidad (Speak Profile)",
-  "talk_objectives": "compartir con la comunidad una aplicacion que desarrolle en mi tiempo libre la cual tiene como objetivo mediante el reconocimiento de voz el tipo de personalidad de una persona"
-},
-{
-	"images": "/images/speakers/cesar-quintuña.png",
-  "name": "Cesar Quintuña",
-  "mail": "cepaquin@espol.edu.ec",
-  "bio": "Soy ingeniero mecatrónico, graduado de la ESPOL, y ahora estoy haciendo una pasantía en el área de red team en Telconet. Me gusta mucho la electrónica y la robótica, además soy hincha del Barcelona de España. Pronto publicaré dos artículos sobre robótica, lo cual me tiene muy emocionado.",
-  "talk": "DISEÑO Y SIMULACIÓN DE UN VEHÍCULO AUTÓNOMO TERRESTRE NO TRIPULADO",
-  "talk_objectives": "Explicar cómo las herramientas de código abierto, como ROS, Onshape, Gazebo y RViz, permiten el desarrollo colaborativo y eficiente de vehículos autónomos terrestres no tripulados.\nMostrar cómo el diseño del vehículo se puede realizar en Onshape, permitiendo a los equipos trabajar de forma remota en un entorno colaborativo y en tiempo real.\nPresentar las capacidades de simulación física y dinámica de Gazebo, y cómo permite probar el comportamiento del vehículo en diferentes escenarios antes de construir un prototipo físico.\nExplicar cómo RViz se utiliza para visualizar la información sensorial y las trayectorias en tiempo real, mejorando la capacidad de monitorear y depurar el comportamiento del vehículo."
-}
+  {
+    "images": "/images/speakers/alex-andrés-vélez-llaque.png",
+    "name": "Alex Andrés Vélez Llaque",
+    "mail": "velezllaquealex@gmail.com",
+    "bio": "Ingeniero en Ciencias de la Computación de Espol, con cuatro años de experiencia trabajando con tecnologías web como FullStack Developer, Organizer del Google Developer Groups Guayaquil, ex Google Summer of Code contributor en 2022, Google Summer of Code mentor en 2024 y ganador global del Nasa Space Apps Challenge en 2021.",
+    "talk": "Google Summer of Code: Impulsa tu Carrera con Proyectos Open Source a nivel Global.",
+    "talk_objectives": "El objetivo es dar a conocer e inspirar a más personas a que apliquen a programas como estos, que vean que si una persona como cualquier otra, de nuestra ciudad, pudo, entonces que todos pueden. Y en general generar interés en el valor de aplicar a proyectos de codigo abierto aunque no sea a través del GSoC."
+  },
+  {
+    "images": "/images/speakers/jean-carlos-correa.png",
+    "name": "Jean Carlos Correa",
+    "mail": "jean_car1993@hotmail.com",
+    "bio": "Apasionado del arte, la tecnología y la pedagogía. Ingeniero en computación y sistemas por la Universidad Agraria del Ecuador. Artista independiente Guayaquileño con una trayectoria artística de más de 10 años. Ubica su trabajo artístico entre la Danza contemporánea, teatro y circo",
+    "talk": "De Sonic Pi a instrumentos musicales precolombinos: explorando nuevas formar de desarrollar experiencias sonoras creativas.",
+    "talk_objectives": "-Introducir Sonic Pi como herramienta para la creación musical y su potencial para fusionar lo tradicional con lo digital.\n-Demostrar cómo traducir conceptos musicales a código de programación.\n-Explorar formas creativas de integrar instrumentos precolombinos en performances digitales.\n-Inspirar a los asistentes a experimentar con nuevas formas de expresión musical utilizando tecnología y elementos culturales tradicionales."
+  },
+  {
+    "images": "/images/speakers/juan-isidro-mejía-peña.png",
+    "name": "Juan Isidro Mejía Peña",
+    "mail": "juanisidromejia@gmail.com",
+    "bio": "Músico y programador. Estudió Dirección Orquestal en Ucrania y en Ecuador en la carrera de Ingeniería de Sistemas Administrativos Computarizados.Su formación dual lo ha convertido en un  apasionado por divulgar las tecnologías libres para la música. Posee una maestría en Pedagogía y Entrenamiento Musical y en lo relacionado a la tecnología se mantiene en el desarrollo de productos Blockchain en la comunidad de Dow7coin. Ha colaborado en eventos informáticos como artista, expositor o mentor en el FLISOL y el Hackaton . Actualmente es parte de la comunidad Guayaquil Tech docente de la Universidad Católica de Santiago de Guayaquil, de la Universidad de las Artes del Ecuador y del Colegio República de Francia ",
+    "talk": "La revolución del software libre en la música: El caso de Musescore vs. Finale",
+    "talk_objectives": "Objetivos:\n\nEntender la historia detrás de la creación de Musescore y su lucha por posicionarse entre los grandes programas de notación musical\n\nAprender sobre la importancia de la colaboración y la innovación en el desarrollo de software\n\nDescubrir cómo la comunidad de desarrolladores de software libre puede cambiar la forma en que creamos y compartimos música\n\nReflexionar sobre el papel del software libre en la música y su impacto en la industria\n"
+  },
+  {
+    "images": "/images/speakers/byron-andres-duarte-morejon.png",
+    "name": "BYRON ANDRES DUARTE MOREJON",
+    "mail": "b.duarte.apps@gmail.com",
+    "bio": "Ingeniero de software con trayectoria en el desarrollo y liderazgo de proyectos tecnológicos en sectores como: banca digital, facturación electrónica, mercados bursátiles, comercio digital y seguros médicos. Es un entusiasta de la IA y un firme creyente en el arte detrás de la ingeniería de software.",
+    "talk": "El rol del open source en la democratización de la inteligencia artificial",
+    "talk_objectives": "Mostrar el impacto del open source en la democratización de la IA."
+  },
+  {
+    "images": "/images/speakers/joel-choez.png",
+    "name": "Joel Choez",
+    "mail": "ejchoez@espol.edu.ec",
+    "bio": "Pentester - Telconet, Líder - Saturdays.AI Guayaquil, Ex presidente CIAP (Club de Inteligencia Artificial Politécnico)",
+    "talk": "Web LLM attacks",
+    "talk_objectives": "1. Comprender los ataques a LLM.\n2. Demostrar vulnerabilidades en LLM con PortSwigger.\n3. Explorar soluciones de seguridad para LLM."
+  },
+  {
+    "images": "/images/speakers/jonathan-zavala.png",
+    "name": "Jonathan Zavala",
+    "mail": "jonzavil@espol.edu.ec",
+    "bio": "Soy graduado de Ingeniería Mecatrónica en la ESPOL y actualmente soy pasante en el área de red team en Telconet. Me encanta viajar y hacer actividades al aire libre. Me apasiona la investigación y siempre estoy buscando aprender más sobre programación y diseño mecatrónico.",
+    "talk": "DISEÑO Y SIMULACIÓN DE UN VEHÍCULO AUTÓNOMO TERRESTRE NO TRIPULADO",
+    "talk_objectives": "Explicar cómo las herramientas de código abierto, como ROS, Onshape, Gazebo y RViz, permiten el desarrollo colaborativo y eficiente de vehículos autónomos terrestres no tripulados.\nMostrar cómo el diseño del vehículo se puede realizar en Onshape, permitiendo a los equipos trabajar de forma remota en un entorno colaborativo y en tiempo real.\nPresentar las capacidades de simulación física y dinámica de Gazebo, y cómo permite probar el comportamiento del vehículo en diferentes escenarios antes de construir un prototipo físico.\nExplicar cómo RViz se utiliza para visualizar la información sensorial y las trayectorias en tiempo real, mejorando la capacidad de monitorear y depurar el comportamiento del vehículo."
+  },
+  {
+    "images": "/images/speakers/giovanni-ernesto-bauz-garcía.png",
+    "name": "Giovanni Ernesto Bauz García",
+    "mail": "gbauz3t@gmail.com",
+    "bio": "Soy un desarrollador frontend actualmente me encuentro desarrollando proyecto freelance tanto web,moviles tengo una startup llamada digital webdise la cual ofrece diferentes cursos de desarrollo web y tambien desarrollamos proyectos para pequeños y medianos emprendimientos",
+    "talk": "Demostración:App de Personalidad (Speak Profile)",
+    "talk_objectives": "compartir con la comunidad una aplicacion que desarrolle en mi tiempo libre la cual tiene como objetivo mediante el reconocimiento de voz el tipo de personalidad de una persona"
+  },
+  {
+    "images": "/images/speakers/cesar-quintuña.png",
+    "name": "Cesar Quintuña",
+    "mail": "cepaquin@espol.edu.ec",
+    "bio": "Soy ingeniero mecatrónico, graduado de la ESPOL, y ahora estoy haciendo una pasantía en el área de red team en Telconet. Me gusta mucho la electrónica y la robótica, además soy hincha del Barcelona de España. Pronto publicaré dos artículos sobre robótica, lo cual me tiene muy emocionado.",
+    "talk": "DISEÑO Y SIMULACIÓN DE UN VEHÍCULO AUTÓNOMO TERRESTRE NO TRIPULADO",
+    "talk_objectives": "Explicar cómo las herramientas de código abierto, como ROS, Onshape, Gazebo y RViz, permiten el desarrollo colaborativo y eficiente de vehículos autónomos terrestres no tripulados.\nMostrar cómo el diseño del vehículo se puede realizar en Onshape, permitiendo a los equipos trabajar de forma remota en un entorno colaborativo y en tiempo real.\nPresentar las capacidades de simulación física y dinámica de Gazebo, y cómo permite probar el comportamiento del vehículo en diferentes escenarios antes de construir un prototipo físico.\nExplicar cómo RViz se utiliza para visualizar la información sensorial y las trayectorias en tiempo real, mejorando la capacidad de monitorear y depurar el comportamiento del vehículo."
+  }
 ]

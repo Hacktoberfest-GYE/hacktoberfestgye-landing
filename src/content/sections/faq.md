@@ -1,8 +1,8 @@
 ---
-title: 'Preguntas Frecuentes (FAQ)'
-summary: 'Encuentra respuestas a las preguntas más comunes sobre Hacktoberfest.'
-message: 'Si tienes más preguntas o necesitas ayuda adicional, no dudes en ponerte en contacto con nosotros '
-email: 'hfteam@hacktoberfestgye.org'
+title: "Preguntas Frecuentes (FAQ)"
+summary: "Encuentra respuestas a las preguntas más comunes sobre Hacktoberfest."
+message: "Si tienes más preguntas o necesitas ayuda adicional, no dudes en ponerte en contacto con nosotros "
+email: "hfteam@hacktoberfestgye.org"
 ---
 
 ### ¿Qué es Hacktoberfest?

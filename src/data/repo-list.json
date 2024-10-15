@@ -1,37 +1,37 @@
 [
-{
-  "url": "https://github.com/epicoguayaquil/bolsaempleo-frontend",
-  "name": "bolsaempleo-frontend",
-  "org": "ÉPICO",
-  "description": "BackOffice EPICO proporciona al usuario una herramienta para la gestión de las diferentes opciones que disponen los portales de EPICO. Este sistema centraliza y optimiza el mantenimiento y la administración de funcionalidades clave como catálogos, centros de emprendimiento, bolsas de empleo, y más.",
-  "github_clone_url": "https://github.com/epicoguayaquil/bolsaempleo-frontend/fork"
-},
-{
-  "url": "https://github.com/epicoguayaquil/bolsaempleo-backend",
-  "name": "bolsaempleo-backend",
-  "org": "ÉPICO",
-  "description": "",
-  "github_clone_url": "https://github.com/epicoguayaquil/bolsaempleo-backend/fork"
-},
-{
-  "url": "https://github.com/Guayaquil-Tech/calendario-de-eventos",
-  "name": "calendario-de-eventos",
-  "org": "Guayaquil-Tech",
-  "description": "Dynamic list of GYETECH community events loaded from Google Spreadsheets.",
-  "github_clone_url": "https://github.com/Guayaquil-Tech/calendario-de-eventos/fork"
-},
-{
-  "url": "https://github.com/gbauz/appTestVoice",
-  "name": "appTestVoice",
-  "org": "gbauz",
-  "description": "",
-  "github_clone_url": "https://github.com/gbauz/appTestVoice/fork"
-},
-{
-  "url": "https://github.com/kokoaespol/Kokoa.Site",
-  "name": "Kokoa.Site",
-  "org": "kokoaespol",
-  "description": "Sitio web oficial del club Kokoa ESPOL",
-  "github_clone_url": "https://github.com/kokoaespol/Kokoa.Site/fork"
-}
+  {
+    "url": "https://github.com/epicoguayaquil/bolsaempleo-frontend",
+    "name": "bolsaempleo-frontend",
+    "org": "ÉPICO",
+    "description": "BackOffice EPICO proporciona al usuario una herramienta para la gestión de las diferentes opciones que disponen los portales de EPICO. Este sistema centraliza y optimiza el mantenimiento y la administración de funcionalidades clave como catálogos, centros de emprendimiento, bolsas de empleo, y más.",
+    "github_clone_url": "https://github.com/epicoguayaquil/bolsaempleo-frontend/fork"
+  },
+  {
+    "url": "https://github.com/epicoguayaquil/bolsaempleo-backend",
+    "name": "bolsaempleo-backend",
+    "org": "ÉPICO",
+    "description": "",
+    "github_clone_url": "https://github.com/epicoguayaquil/bolsaempleo-backend/fork"
+  },
+  {
+    "url": "https://github.com/Guayaquil-Tech/calendario-de-eventos",
+    "name": "calendario-de-eventos",
+    "org": "Guayaquil-Tech",
+    "description": "Dynamic list of GYETECH community events loaded from Google Spreadsheets.",
+    "github_clone_url": "https://github.com/Guayaquil-Tech/calendario-de-eventos/fork"
+  },
+  {
+    "url": "https://github.com/gbauz/appTestVoice",
+    "name": "appTestVoice",
+    "org": "gbauz",
+    "description": "",
+    "github_clone_url": "https://github.com/gbauz/appTestVoice/fork"
+  },
+  {
+    "url": "https://github.com/kokoaespol/Kokoa.Site",
+    "name": "Kokoa.Site",
+    "org": "kokoaespol",
+    "description": "Sitio web oficial del club Kokoa ESPOL",
+    "github_clone_url": "https://github.com/kokoaespol/Kokoa.Site/fork"
+  }
 ]
