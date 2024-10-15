@@ -18,13 +18,20 @@ import Partners from '../components/Partners.astro';
   <div class="container mx-auto px-4 xl:px-0">
     <Features />
     <CTA
-      idSection="register-mentors"
+      idSection="register-participants"
       title="¡Acompáñanos en el Hacktoberfest!"
       summary="Tu involucramiento es importante. ¡Ven a contribuir a tu proyecto de software libre favorito, y aprender en el proceso!"
       buttonUrl="https://forms.gle/Qyeoc46c8NSkqeNNA"
       buttonText="Regístrate y hackea código"
     />
     <Gallery client:idle />
++    <CTA
++      idSection="repo-list"
++      title="¿No sábes dónde contribuir?"
++      summary="Hemos preparados algunos repositorios en los que podemos darte apoyo. Por favor, ¡revísalos!"
++      buttonUrl="/repos"
++      buttonText="Forkea los repos"
++    />
     <Team />
     <CTA
       idSection="mentor-list"
