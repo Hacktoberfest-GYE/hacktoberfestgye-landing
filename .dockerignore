@@ -26,5 +26,4 @@ tmp/
 logs/
 
 # Ignore local development files
-node_modules/
 vendor/bundle/

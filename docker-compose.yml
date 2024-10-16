@@ -1,15 +1,12 @@
 services:
-  jekyll:
+  astro-app:
     build: .
     container_name: hacktoberfestGye
-    command: jekyll serve --watch --force_polling --host 0.0.0.0
     ports:
-      - "4000:4000"
+      - "4321:4321"
     volumes:
-      - .:/srv/jekyll
-      - gem_cache:/usr/local/bundle
+      - .:/app
+      - /app/node_modules
     environment:
-      - JEKYLL_ENV=development
-
-volumes:
-  gem_cache:
+      - NODE_ENV=development
+    command: pnpm dev --host 0.0.0.0 --port 4321

@@ -1,20 +1,24 @@
-# Use the latest Jekyll image based on Ruby 3.x
-FROM jekyll/jekyll:latest
+# Use the official Astro image
+FROM node:lts-alpine
 
 # Set the working directory inside the container
-WORKDIR /srv/jekyll
+WORKDIR /app
 
-# Copy the Gemfile and Gemfile.lock first to leverage Docker cache
-COPY Gemfile Gemfile.lock ./
+# Copy the package.json and lock file
+COPY package.json ./
+COPY pnpm-lock.yaml ./
 
-# Install the project dependencies
-RUN gem install bundler:2.3.25 && bundle install
+# Install pnpm
+RUN npm install -g pnpm
 
-# Copy the rest of the project files
+# Install dependencies
+RUN pnpm install
+
+# Copy the rest of the application
 COPY . .
 
-# Expose port 4000 to access the Jekyll site
-EXPOSE 4000
+# Expose port 4321 to access the app
+EXPOSE 4321
 
-# Command to run Jekyll server with file watching and live reload
-CMD ["jekyll", "serve", "--watch", "--force_polling", "--host", "0.0.0.0"]
+# Command to run Astro in development mode
+CMD ["pnpm", "dev", "--host", "0.0.0.0", "--port", "4321"]
