@@ -24,7 +24,7 @@
     "url": "https://github.com/gbauz/appTestVoice",
     "name": "appTestVoice",
     "org": "gbauz",
-    "description": "",
+    "description": "Speak Profile es una innovadora aplicación móvil que utiliza reconocimiento de voz para analizar el tono, las palabras y el estilo de comunicación de los usuarios y, a partir de esos datos, inferir su tipo de personalidad. La app escucha la voz del usuario y, tras un breve análisis, muestra resultados sobre su perfil de personalidad.",
     "github_clone_url": "https://github.com/gbauz/appTestVoice/fork"
   },
   {
