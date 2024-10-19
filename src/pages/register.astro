@@ -1,0 +1,10 @@
+---
+const redirect = "https://docs.google.com/forms/d/e/1FAIpQLSdPhMYNkesZj4nsm6MsWKSH7la9BSNQSorXiJ4dg3BV91csLg/viewform"
+---
+
+{redirect ? (
+  <meta 
+    http-equiv="refresh" 
+    content={ `0; url=${ redirect }` } 
+  />
+) : null}
