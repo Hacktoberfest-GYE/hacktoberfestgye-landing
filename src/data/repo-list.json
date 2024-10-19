@@ -10,7 +10,7 @@
     "url": "https://github.com/epicoguayaquil/bolsaempleo-backend",
     "name": "bolsaempleo-backend",
     "org": "ÉPICO",
-    "description": "",
+    "description": "bolsaempleo-backend es un API basado en Slim 4.0 con PHP 8 para la creación de Web Service Rest para el consumo tanto del portal de Ofertas Laborales como el BackOffice de la Bolsa de Empleo.",
     "github_clone_url": "https://github.com/epicoguayaquil/bolsaempleo-backend/fork"
   },
   {
