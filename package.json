@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "pnpm build && astro preview",
     "lint": "eslint .",
     "format": "prettier --check . || prettier --write .",
     "astro": "astro"
