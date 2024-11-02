@@ -80,7 +80,7 @@ const Navbar = ({
         <a href="/" title="Hacktober Fest Gye">
           <img
             className="duration-300 ease-out"
-            src="/images/logos/hacktoberfest.png"
+            src="/images/logos/hacktoberfest.webp"
             alt="Site Logo"
             style={{ maxHeight: scrollingDown ? "3em" : "4.5em" }}
           />
