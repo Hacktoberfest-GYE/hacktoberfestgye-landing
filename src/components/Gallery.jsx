@@ -2,12 +2,12 @@ import { useEffect } from "react";
 import "photoswipe/style.css";
 
 const images = [
-  { src: "/images/portfolio/image_y.jpeg", title: "Imagen 1" },
-  { src: "/images/portfolio/image_g.jpeg", title: "Imagen 2" },
-  { src: "/images/portfolio/image_e.jpeg", title: "Imagen 3" },
-  { src: "/images/portfolio/image_d.jpeg", title: "Imagen 4" },
-  { src: "/images/portfolio/image_x.jpeg", title: "Imagen 5" },
-  { src: "/images/portfolio/image_f.jpeg", title: "Imagen 6" },
+  { src: "/images/portfolio/image_y.webp", title: "Imagen 1" },
+  { src: "/images/portfolio/image_g.webp", title: "Imagen 2" },
+  { src: "/images/portfolio/image_e.webp", title: "Imagen 3" },
+  { src: "/images/portfolio/image_d.webp", title: "Imagen 4" },
+  { src: "/images/portfolio/image_x.webp", title: "Imagen 5" },
+  { src: "/images/portfolio/image_f.webp", title: "Imagen 6" },
 ];
 
 const Gallery = () => {
